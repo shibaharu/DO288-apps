@@ -1,5 +1,5 @@
 # Use the httpd-parent image as base
-FROM quay.io/redhattraining/httpd-parent
+FROM default-route-openshift-image-registry.apps.ocp4.example.com/container-build/parent-quayio
 
 EXPOSE 8080
 
